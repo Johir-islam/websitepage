@@ -2,34 +2,33 @@
 <html lang="bn">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>আমার ওয়েবসাইট</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f9f9f9; }
-    header, footer { background-color: #333; color: white; padding: 1rem; text-align: center; }
-    nav { background-color: #444; display: flex; justify-content: center; gap: 1rem; padding: 0.5rem; }
-    nav a { color: white; text-decoration: none; }
-    main { padding: 2rem; }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>আমার ইমেজ ওয়েবসাইট</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Johir-islam/websitepage/styleglobal.css">
 </head>
 <body>
   <header>
-    <h1>আমার ওয়েবসাইট</h1>
+    <h1>আমার ইমেজ গ্যালারি</h1>
+    <nav>
+      <a href="index.html">হোম</a>
+      <a href="gallery-template.html">গ্যালারি</a>
+    </nav>
   </header>
 
-  <nav>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-    <a href="terms.html">Terms</a>
-  </nav>
-
   <main>
-    <h2>Welcome</h2>
-    <p>এই ওয়েবসাইটে আপনাকে স্বাগতম। মেনু থেকে পেজ সিলেক্ট করুন।</p>
+    <section class="intro">
+      <p>নতুন নতুন ছবি ও শুভেচ্ছা বার্তা উপভোগ করুন!</p>
+    </section>
+
+    <section class="gallery">
+      <img src="images/image1.jpg" alt="ছবি ১">
+      <img src="images/image2.jpg" alt="ছবি ২">
+      <!-- আরও ছবি যোগ করুন -->
+    </section>
   </main>
 
   <footer>
-    &copy; 2025 আমার ওয়েবসাইট
+    <p>© 2025 আমার ওয়েবসাইট</p>
   </footer>
 </body>
 </html>
